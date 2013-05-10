@@ -1,0 +1,58 @@
+/* Common style: description of main elements style*/
+a                       { text-decoration: none; color: #000000; }
+a:visited               { color: #000000; }
+body                    { height: 100%; width: 100%; margin:0 auto; overflow: hidden; font: 13px arial, sans-serif; }
+aside                   { width: 200px; position: absolute; top: 165px; bottom: 0; }
+button                  { border: 0; background: transparent; }
+footer                  { position: relative; color: #666666; background-color: white; font-size: 85%; }
+footer a                { text-decoration: underline; color: #666666 ; }
+section                 { position: absolute; left: 200px; top: 165px; right: 0; background-color: #f4f4f4; }
+
+/* Main navigation:  */
+#navUser                { margin-left: 2em; }
+
+.mainNav                { line-height: 29px; background-color:#2D2D2D; overflow-x: hidden; }
+.mainNav a              { margin: 9px; font: 13px; font-weight: bold; color: #BBBBBB; }
+.mainNav a:hover        { color: #FFFFFF; }
+.mainNav a.active       { color: #FFFFFF; }
+
+/*Google menu: block with search field and google-plus menu*/
+#user                   { position: relative; left: 235px; }
+#logo                   { position: relative; left: 25px; top: 15px; }
+
+.search                 { display: inline; margin: 80px; overflow: hidden; }
+.plusmenu               { display: inline; float: right; margin: 20px;}
+.googleMenu             { height: 75px; background-color: #f4f4f4; border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+
+/*Search field: input form for text and submit button*/
+#field                  { width: 515px; height: 25px; line-height: 27px; text-indent: 10px; font-size: 16px; color: #333;
+                          background: #fff; border: solid 1px #d9d9d9; border-top: solid 1px #c0c0c0; margin-right: 15px; }
+#submit                 { width: 70px; height: 29px; background: url("img/search.png") no-repeat #4d90fe center;
+                          color: transparent; cursor: pointer; border: 1px solid #3079ED; }
+#submit:hover           { background: url("img/search.png") no-repeat center #357AE8; border: 1px solid #2F5BB7; }
+
+/* Mail navigation: block of navigation buttons */
+#gmailLogo              { margin-top: 15px; position: absolute; top: 110px; left: 20px; }
+#letterNumber           { position: fixed; right: 190px; margin-top: 15px;}
+
+.mailNav                { height: 59px; border-bottom: 1px solid rgba(0, 0, 0, 0.1); line-height: 29px;}
+.letterGide             { display: inline; position: fixed; right: 10px; padding-top: 15px; }
+.letterOption           { display: inline; position: fixed; left: 190px; padding-top: 15px; }
+
+/* Letter navigation: diferentiation of letters, button "write" and chat toolbar */
+#chat                   { position: fixed; bottom: 10px; text-align: center; width: 200px; }
+#writeButton            { margin: 15px; }
+
+.letterNav              { position: fixed; top: 220px; left: 30px; border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+                          height: 380px; width: 140px; line-height: 25px; }
+.letterNav a.active     { font-weight: bold; color: #d74a38; }
+
+/* Letter section: table of received letters with noted time and sender */
+.flag                   { width: 26px; display: inline-table; }
+.star                   { width: 30px; display: inline-table; }
+.addOns                 { width: 45px; display: inline-table; }
+.fromWho                { width: 220px; display: inline-table; }
+.whenDate               { width: 10ex; display: inline-table; }
+.letterInfo             { border-bottom: 1px solid rgba(0, 0, 0, 0.1); line-height: 27px; }
+.letterTheme            { width: 755px; display: inline-table; overflow: hidden; }
+
