@@ -27,9 +27,9 @@ section                 { position: absolute; left: 200px; top: 165px; right: 0;
 /*Search field: input form for text and submit button*/
 #field                  { width: 515px; height: 25px; line-height: 27px; text-indent: 10px; font-size: 16px; color: #333;
                           background: #fff; border: solid 1px #d9d9d9; border-top: solid 1px #c0c0c0; margin-right: 15px; }
-#submit                 { width: 70px; height: 29px; background: url("img/search.png") no-repeat #4d90fe center;
+#submit                 { width: 70px; height: 29px; background: url("../../../Dropbox/Web%20dev%20Courses/5/юка/gmail/style/img/search.png") no-repeat #4d90fe center;
                           color: transparent; cursor: pointer; border: 1px solid #3079ED; }
-#submit:hover           { background: url("img/search.png") no-repeat center #357AE8; border: 1px solid #2F5BB7; }
+#submit:hover           { background: url("../../../Dropbox/Web%20dev%20Courses/5/юка/gmail/style/img/search.png") no-repeat center #357AE8; border: 1px solid #2F5BB7; }
 
 /* Mail navigation: block of navigation buttons */
 #gmailLogo              { margin-top: 15px; position: absolute; top: 110px; left: 20px; }
@@ -48,11 +48,16 @@ section                 { position: absolute; left: 200px; top: 165px; right: 0;
 .letterNav a.active     { font-weight: bold; color: #d74a38; }
 
 /* Letter section: table of received letters with noted time and sender */
-.flag                   { width: 26px; display: inline-table; }
-.star                   { width: 30px; display: inline-table; }
+.flag                   { width: 26px; display: inline-table; position: relative; top: 2px; left: 5px;}
+.star                   { width: 30px; display: inline-table; position: relative; top: 4px; }
 .addOns                 { width: 45px; display: inline-table; }
 .fromWho                { width: 220px; display: inline-table; }
 .whenDate               { width: 10ex; display: inline-table; }
-.letterInfo             { border-bottom: 1px solid rgba(0, 0, 0, 0.1); line-height: 27px; }
+.letterInfo             { border-bottom: 1px solid rgba(0, 0, 0, 0.1); line-height: 27px; padding-bottom: 3px; padding-top: 3px;}
 .letterTheme            { width: 755px; display: inline-table; overflow: hidden; }
+
+/*Footer style*/
+#lastDid                { float: left; text-align: right; width: 33.3%; }
+#copyright              { float: left; text-align: center; width: 33.3%; }
+#usingMemory            { float: left; text-align: left; width: 33.3%; }
 
