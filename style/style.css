@@ -6,7 +6,7 @@ aside                   { width: 200px; position: absolute; top: 165px; bottom: 
 button                  { border: 0; background: transparent; }
 footer                  { position: relative; color: #666666; background-color: white; font-size: 85%; }
 footer a                { text-decoration: underline; color: #666666 ; }
-section                 { position: absolute; left: 200px; top: 165px; right: 0; background-color: #f4f4f4; }
+section                 { background-color: #f4f4f4; }
 
 /* Main navigation:  */
 #navUser                { margin-left: 2em; }
@@ -17,7 +17,7 @@ section                 { position: absolute; left: 200px; top: 165px; right: 0;
 .mainNav a.active       { color: #FFFFFF; }
 
 /*Google menu: block with search field and google-plus menu*/
-#user                   { position: relative; left: 235px; }
+#user                   {  }
 #logo                   { position: relative; left: 25px; top: 15px; }
 
 .search                 { display: inline; margin: 80px; overflow: hidden; }
@@ -46,6 +46,8 @@ section                 { position: absolute; left: 200px; top: 165px; right: 0;
 .letterNav              { position: fixed; top: 220px; left: 30px; border-bottom: 1px solid rgba(0, 0, 0, 0.1);
                           height: 380px; width: 140px; line-height: 25px; }
 .letterNav a.active     { font-weight: bold; color: #d74a38; }
+
+.wrap                   { position: absolute; left: 200px; top: 165px; right: 0; }
 
 /* Letter section: table of received letters with noted time and sender */
 .flag                   { width: 26px; display: inline-table; position: relative; top: 2px; left: 5px;}
