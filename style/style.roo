@@ -23,8 +23,8 @@ button                  { border: 0; background: transparent; }
 #logo                   { position: relative; left: 25px; top: 15px; }
 #field                  { width: 515px; height: 25px; line-height: 27px; text-indent: 10px; font-size: 16px; color: #333; background: #fff; border: solid 1px #d9d9d9; border-top: solid 1px #c0c0c0; margin-right: 15px; }
 #submit {
-    width: 70px; height: 29px; background: url("../../../Dropbox/Web%20dev%20Courses/5/юка/gmail/style/img/search.png") no-repeat #4d90fe center; color: transparent; cursor: pointer; border: 1px solid #3079ED; cursor: default;
-    &:hover { background: url("../../../Dropbox/Web%20dev%20Courses/5/юка/gmail/style/img/search.png") no-repeat center #357AE8; border: 1px solid #2F5BB7; }
+    width: 70px; height: 29px; background: url("img/search.png") no-repeat #4d90fe center; color: transparent; cursor: pointer; border: 1px solid #3079ED; cursor: default;
+    &:hover { background: url("img/search.png") no-repeat center #357AE8; border: 1px solid #2F5BB7; }
 }
 .search                 { display: inline; margin: 80px; overflow: hidden; }
 .plusmenu {
