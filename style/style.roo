@@ -1,19 +1,13 @@
 /* Common style: description of main elements style*/
-a   { text-decoration: none; color: #000000;
+a {text-decoration: none; color: #000000;}
+a:visited { color: #000000; }
 
-}
-a:visited               { color: #000000; }
-body                    { height: 100%; width: 100%; margin:0 auto; overflow: hidden; font: 13px arial, sans-serif; }
-
+body                    { height: 100%; width: 100%; margin: 0 auto; overflow: hidden; font: 13px arial, sans-serif; }
 button                  { border: 0; background: transparent; }
 
-section                 { background-color: #f2f2f2; bottom: 0; left: 200px; overflow: auto; position: absolute;
-                            margin-right: 5px; top: 165px; right: 5px; }
-
-/* Main navigation:  */
+/*Main navigation*/
 #navUser                { margin-left: 2em; }
-
-.mainNav                { line-height: 29px; background-color:#2D2D2D; overflow-x: hidden; }
+.mainNav                { line-height: 29px; background-color:#2D2D2D; overflow-x: hidden; height: 29px;}
 .mainNav a              { margin: 9px; font: 13px; font-weight: bold; color: #BBBBBB; }
 .mainNav a:hover        { color: #FFFFFF; }
 .mainNav a.active       { color: #FFFFFF; }
@@ -27,33 +21,32 @@ section                 { background-color: #f2f2f2; bottom: 0; left: 200px; ove
                             no-repeat #4d90fe center; color: transparent; cursor: pointer; border: 1px solid #3079ED; cursor: default;}
 #submit:hover           { background: url("../../../Dropbox/Web%20dev%20Courses/5/юка/gmail/style/img/search.png")
                             no-repeat center #357AE8; border: 1px solid #2F5BB7; }
-
 .search                 { display: inline; margin: 80px; overflow: hidden; }
-.plusmenu               { display: inline; float: right; margin: 20px;}
+.plusmenu               { display: inline; float: right; margin: 20px; }
 .plusmenu button        { cursor: pointer; }
 .googleMenu             { height: 75px; background-color: #f4f4f4; border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 
-/* Mail navigation: block of navigation buttons */
+/*Mail navigation: block of navigation buttons*/
 #gmailLogo              { margin-top: 15px; position: absolute; top: 110px; left: 20px; cursor: pointer; }
 #letterNumber           { position: fixed; right: 190px; margin-top: 15px;}
-
 .mailNav                { height: 59px; border-bottom: 1px solid rgba(0, 0, 0, 0.1); line-height: 29px;}
 .letterGide             { display: inline; position: fixed; right: 10px; padding-top: 15px; }
 .letterGide a           { cursor: default; }
 .letterOption           { display: inline; position: fixed; left: 190px; padding-top: 15px; }
 .letterOption a         { cursor: default; }
 
-/* Letter navigation: diferentiation of letters, button "write" and chat toolbar */
+/*Letter navigation: diferentiation of letters, button "write" and chat toolbar*/
 #chat                   { position: fixed; bottom: 10px; text-align: center; width: 200px; }
 #writeButton            { margin: 15px; }
-
 .letterNav              { position: fixed; top: 220px; left: 30px; border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-                          height: 380px; width: 140px; line-height: 25px; }
+                            height: 380px; width: 140px; line-height: 25px; }
 .letterNav a.active     { font-weight: bold; color: #d74a38; }
 
 aside                   { width: 200px; position: absolute; top: 165px; bottom: 0; }
+section                 { background-color: #f2f2f2; bottom: 0; left: 200px; overflow: auto; position: absolute;
+                            margin-right: 5px; top: 165px; right: 5px; }
 
-/* Letter section: table of received letters with noted time and sender */
+/*Letter section: table of received letters with noted time and sender*/
 .a-w                    { float: right; width: 90px; }
 .flag                   { width: 26px; display: inline-table; position: relative; top: 2px; left: 5px;}
 .star                   { width: 30px; display: inline-table; position: relative; top: 4px; }
