@@ -1,12 +1,14 @@
 /* Common style: description of main elements style*/
-a                       { text-decoration: none; color: #000000; }
+a   { text-decoration: none; color: #000000;
+
+}
 a:visited               { color: #000000; }
 body                    { height: 100%; width: 100%; margin:0 auto; overflow: hidden; font: 13px arial, sans-serif; }
-aside                   { width: 200px; position: absolute; top: 165px; bottom: 0; }
+
 button                  { border: 0; background: transparent; }
-footer                  { position: relative; color: #666666; background-color: white; font-size: 85%; }
-footer a                { text-decoration: underline; color: #666666 ; }
-section                 { background-color: #f4f4f4; }
+
+section                 { background-color: #f2f2f2; bottom: 0; left: 200px; overflow: auto; position: absolute;
+                            margin-right: 5px; top: 165px; right: 5px; }
 
 /* Main navigation:  */
 #navUser                { margin-left: 2em; }
@@ -17,27 +19,29 @@ section                 { background-color: #f4f4f4; }
 .mainNav a.active       { color: #FFFFFF; }
 
 /*Google menu: block with search field and google-plus menu*/
-#user                   {  }
+#user                   { vertical-align: super;  }
 #logo                   { position: relative; left: 25px; top: 15px; }
+#field                  { width: 515px; height: 25px; line-height: 27px; text-indent: 10px; font-size: 16px; color: #333;
+                            background: #fff; border: solid 1px #d9d9d9; border-top: solid 1px #c0c0c0; margin-right: 15px; }
+#submit                 { width: 70px; height: 29px; background: url("../../../Dropbox/Web%20dev%20Courses/5/юка/gmail/style/img/search.png")
+                            no-repeat #4d90fe center; color: transparent; cursor: pointer; border: 1px solid #3079ED; cursor: default;}
+#submit:hover           { background: url("../../../Dropbox/Web%20dev%20Courses/5/юка/gmail/style/img/search.png")
+                            no-repeat center #357AE8; border: 1px solid #2F5BB7; }
 
 .search                 { display: inline; margin: 80px; overflow: hidden; }
 .plusmenu               { display: inline; float: right; margin: 20px;}
+.plusmenu button        { cursor: pointer; }
 .googleMenu             { height: 75px; background-color: #f4f4f4; border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 
-/*Search field: input form for text and submit button*/
-#field                  { width: 515px; height: 25px; line-height: 27px; text-indent: 10px; font-size: 16px; color: #333;
-                          background: #fff; border: solid 1px #d9d9d9; border-top: solid 1px #c0c0c0; margin-right: 15px; }
-#submit                 { width: 70px; height: 29px; background: url("../../../Dropbox/Web%20dev%20Courses/5/юка/gmail/style/img/search.png") no-repeat #4d90fe center;
-                          color: transparent; cursor: pointer; border: 1px solid #3079ED; }
-#submit:hover           { background: url("../../../Dropbox/Web%20dev%20Courses/5/юка/gmail/style/img/search.png") no-repeat center #357AE8; border: 1px solid #2F5BB7; }
-
 /* Mail navigation: block of navigation buttons */
-#gmailLogo              { margin-top: 15px; position: absolute; top: 110px; left: 20px; }
+#gmailLogo              { margin-top: 15px; position: absolute; top: 110px; left: 20px; cursor: pointer; }
 #letterNumber           { position: fixed; right: 190px; margin-top: 15px;}
 
 .mailNav                { height: 59px; border-bottom: 1px solid rgba(0, 0, 0, 0.1); line-height: 29px;}
 .letterGide             { display: inline; position: fixed; right: 10px; padding-top: 15px; }
+.letterGide a           { cursor: default; }
 .letterOption           { display: inline; position: fixed; left: 190px; padding-top: 15px; }
+.letterOption a         { cursor: default; }
 
 /* Letter navigation: diferentiation of letters, button "write" and chat toolbar */
 #chat                   { position: fixed; bottom: 10px; text-align: center; width: 200px; }
@@ -47,19 +51,23 @@ section                 { background-color: #f4f4f4; }
                           height: 380px; width: 140px; line-height: 25px; }
 .letterNav a.active     { font-weight: bold; color: #d74a38; }
 
-.wrap                   { position: absolute; left: 200px; top: 165px; right: 0; }
+aside                   { width: 200px; position: absolute; top: 165px; bottom: 0; }
 
 /* Letter section: table of received letters with noted time and sender */
+.a-w                    { float: right; width: 90px; }
 .flag                   { width: 26px; display: inline-table; position: relative; top: 2px; left: 5px;}
 .star                   { width: 30px; display: inline-table; position: relative; top: 4px; }
-.addOns                 { width: 45px; display: inline-table; }
+.addOns                 { display: inline-table; }
 .fromWho                { width: 220px; display: inline-table; }
-.whenDate               { width: 10ex; display: inline-table; }
+.whenDate               { width: 8ex; display: inline-table; text-align: right; }
 .letterInfo             { border-bottom: 1px solid rgba(0, 0, 0, 0.1); line-height: 27px; padding-bottom: 3px; padding-top: 3px;}
-.letterTheme            { width: 755px; display: inline-table; overflow: hidden; }
+.letterTheme            { display: inline-table; overflow: hidden; }
 
 /*Footer style*/
 #lastDid                { float: left; text-align: right; width: 33.3%; }
 #copyright              { float: left; text-align: center; width: 33.3%; }
 #usingMemory            { float: left; text-align: left; width: 33.3%; }
+footer                  { position: relative; color: #666666; background-color: white; color: #666666; font-size: 85%;
+                            margin-top: -5px; padding-bottom: 180px; padding-top: 20px; }
+footer a                { text-decoration: underline; color: #666666 !important; }
 
