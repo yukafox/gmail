@@ -31,8 +31,6 @@ button          { border: 0; background: transparent; }
 #field          { width: 515px; height: 25px; line-height: 27px; text-indent: 10px; font-size: 16px; color: #333;
                     background: #fff; border: $border solid #d9d9d9; border-top: solid 1px #c0c0c0; margin-right: 15px;
                     @media (max-width: 1050px) { width: 400px; }
-    
-
 }
 #submit {
                 width: 70px; height: $lH; background: url("img/search.png") no-repeat #4d90fe center; color: transparent;
