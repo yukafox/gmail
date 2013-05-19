@@ -48,18 +48,21 @@
 </aside>
 
 <section>
-    <div class="letterInfo">
-        {{#letterInfo}}
-        <div class="flag"><label><input type="checkbox"/></label></div>
-        <div class="star"><img src="style/img/star.png"></div>
-        <div class="fromWho">{{fromWho}}</div>
-        <div class="letterTheme">{{letterTheme}}</div>
-        <div class="a-w">
-            <div class="addOns"><img src="{{addOns}}"></div>
-            <div class="whenDate">{{whenDate}}</div>
+
+    {{#letterInfo}}
+        <div class="letterInfo">
+
+            <div class="flag"><label><input type="checkbox"/></label></div>
+            <div class="star"><img src="style/img/star.png"></div>
+            <div class="fromWho">{{fromWho}}</div>
+            <div class="letterTheme">{{letterTheme}}</div>
+            <div class="a-w">
+                <div class="addOns"><img src="{{addOns}}"></div>
+                <div class="whenDate">{{whenDate}}</div>
+            </div>
         </div>
-        {{/letterInfo}}
-    </div>
+    {{/letterInfo}}
+
     <footer>
         <div id="usingMemory">
             <b>Використано 1%</b><br/>

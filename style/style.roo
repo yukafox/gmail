@@ -33,9 +33,9 @@ button          { border: 0; background: transparent; }
                     @media (max-width: 1050px) { width: 400px; }
 }
 #submit {
-                width: 70px; height: $lH; background: url("img/search.png") no-repeat #4d90fe center; color: transparent;
+                width: 70px; height: $lH; background: url("style/img/search.png") no-repeat #4d90fe center; color: transparent;
                     cursor: pointer; border: $border solid #3079ED; cursor: default;
-                &:hover { background: url("img/search.png") no-repeat center #357AE8; border: $border solid #2F5BB7; }
+                &:hover { background: url("style/img/search.png") no-repeat center #357AE8; border: $border solid #2F5BB7; }
 }
 .search         { display: inline; margin-left: 80px; overflow: hidden; }
 .plusmenu {
