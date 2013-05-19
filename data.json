@@ -53,7 +53,7 @@
     }
 ],
 
-"letterNav" : [
+    "letterNav" : [
     {
     "url" : "https://mail.google.com/mail/u/0/?shva=1#inbox",
     "label" : "Вхідні"
@@ -65,18 +65,128 @@
     {
         "url" : "https://mail.google.com/mail/u/0/?shva=1#inbox",
         "label" : "Більше"
-    },
+    }
+],
 
 "letterInfo" : [
     {
-    "fromWho" : "я, Мар'яна (3)",
-    "letterTheme" : "фото" ,
-    "addOns" : "style/img/blank.png",
-    "whenDate" : "16 трав."
+        "fromWho" : "я, Мар'яна (3)",
+        "letterTheme" : "фото" ,
+        "addOns" : "style/img/file.png",
+        "whenDate" : "16 трав."
+    },
+    {
+        "fromWho" : "Команда Google+",
+        "letterTheme" : "The Big Bang Theory, The Big Bang Theory і ще 4 користувачі поділилися з вами в Google+",
+        "addOns" : "style/img/blank.png",
+        "whenDate" : "15 трав."
+    },
+    {
+        "fromWho" : "Коментар true_bilka в LJ",
+        "letterTheme" : "Reply to your comment in Ураааааааааааааа!" ,
+        "addOns" : "style/img/blank.png",
+        "whenDate" : "3 трав."
+    },
+    {
+        "fromWho" : "art-shkola2013 (4)",
+        "letterTheme" : "Fwd: Вітаємо з Великоднем і запрошуємо на Арт-школу 2013" ,
+        "addOns" : "style/img/file.png",
+        "whenDate" : "3 трав."
+    },
+    {
+        "fromWho" : "інка",
+        "letterTheme" : "Чат з користувачем інка(рядків: 46)" ,
+        "addOns" : "style/img/chat-black.png",
+        "whenDate" : "30.12.10"
+    },
+    {
+        "fromWho" : "я, Мар'яна (3)",
+        "letterTheme" : "фото" ,
+        "addOns" : "style/img/file.png",
+        "whenDate" : "16 трав."
+    },
+    {
+        "fromWho" : "Команда Google+",
+        "letterTheme" : "The Big Bang Theory, The Big Bang Theory і ще 4 користувачі поділилися з вами в Google+",
+        "addOns" : "style/img/blank.png",
+        "whenDate" : "15 трав."
+    },
+    {
+        "fromWho" : "Коментар true_bilka в LJ",
+        "letterTheme" : "Reply to your comment in Ураааааааааааааа!" ,
+        "addOns" : "style/img/blank.png",
+        "whenDate" : "3 трав."
+    },
+    {
+        "fromWho" : "art-shkola2013 (4)",
+        "letterTheme" : "Fwd: Вітаємо з Великоднем і запрошуємо на Арт-школу 2013" ,
+        "addOns" : "style/img/file.png",
+        "whenDate" : "3 трав."
+    },
+    {
+        "fromWho" : "інка",
+        "letterTheme" : "Чат з користувачем інка(рядків: 46)" ,
+        "addOns" : "style/img/chat-black.png",
+        "whenDate" : "30.12.10"
+    },
+    {
+        "fromWho" : "я, Мар'яна (3)",
+        "letterTheme" : "фото" ,
+        "addOns" : "style/img/file.png",
+        "whenDate" : "16 трав."
+    },
+    {
+        "fromWho" : "Команда Google+",
+        "letterTheme" : "The Big Bang Theory, The Big Bang Theory і ще 4 користувачі поділилися з вами в Google+",
+        "addOns" : "style/img/blank.png",
+        "whenDate" : "15 трав."
+    },
+    {
+        "fromWho" : "Коментар true_bilka в LJ",
+        "letterTheme" : "Reply to your comment in Ураааааааааааааа!" ,
+        "addOns" : "style/img/blank.png",
+        "whenDate" : "3 трав."
+    },
+    {
+        "fromWho" : "art-shkola2013 (4)",
+        "letterTheme" : "Fwd: Вітаємо з Великоднем і запрошуємо на Арт-школу 2013" ,
+        "addOns" : "style/img/file.png",
+        "whenDate" : "3 трав."
+    },
+    {
+        "fromWho" : "інка",
+        "letterTheme" : "Чат з користувачем інка(рядків: 46)" ,
+        "addOns" : "style/img/chat-black.png",
+        "whenDate" : "30.12.10"
+    },
+    {
+        "fromWho" : "я, Мар'яна (3)",
+        "letterTheme" : "фото" ,
+        "addOns" : "style/img/file.png",
+        "whenDate" : "16 трав."
+    },
+    {
+        "fromWho" : "Команда Google+",
+        "letterTheme" : "The Big Bang Theory, The Big Bang Theory і ще 4 користувачі поділилися з вами в Google+",
+        "addOns" : "style/img/blank.png",
+        "whenDate" : "15 трав."
+    },
+    {
+        "fromWho" : "Коментар true_bilka в LJ",
+        "letterTheme" : "Reply to your comment in Ураааааааааааааа!" ,
+        "addOns" : "style/img/blank.png",
+        "whenDate" : "3 трав."
+    },
+    {
+        "fromWho" : "art-shkola2013 (4)",
+        "letterTheme" : "Fwd: Вітаємо з Великоднем і запрошуємо на Арт-школу 2013" ,
+        "addOns" : "style/img/file.png",
+        "whenDate" : "3 трав."
+    },
+    {
+        "fromWho" : "інка",
+        "letterTheme" : "Чат з користувачем інка(рядків: 46)" ,
+        "addOns" : "style/img/chat-black.png",
+        "whenDate" : "30.12.10"
     }
 ]
-
-
-
-
-}
