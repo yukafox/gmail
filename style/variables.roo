@@ -1,0 +1,7 @@
+$lH = 29px;
+$gMenuH = 75px;
+$mailNavH = 59px;
+$border = 1px;
+$hH = $lH + $gMenuH + $mailNavH + 2 * $border;
+
+$asideW = 200px;

@@ -1,0 +1,16 @@
+{
+    "letterNav": [
+        {
+            "url": "https://mail.google.com/mail/u/0/?shva=1#inbox",
+            "label": "Вхідні"
+        },
+        {
+            "url": "https://mail.google.com/mail/u/0/?shva=1#all",
+            "label": "Уся пошта"
+        },
+        {
+            "url": "https://mail.google.com/mail/u/0/?shva=1#inbox",
+            "label": "Більше"
+        }
+    ]
+}
