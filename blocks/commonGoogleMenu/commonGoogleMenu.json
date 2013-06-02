@@ -1,0 +1,44 @@
+{
+    "mainMenu": [
+        {
+            "url": "https://plus.google.com/u/0/?tab=mX",
+            "label": "+Ім'я"
+        },
+        {
+            "url": "http://www.google.com/webhp?hl=uk&tab=mw",
+            "label": "Пошук"
+        },
+        {
+            "url": "http://www.google.com/imghp?hl=uk&tab=mi",
+            "label": "Зображення"
+        },
+        {
+            "url": "https://maps.google.com/maps?hl=uk&tab=ml",
+            "label": "Карти"
+        },
+        {
+            "url": "https://www.youtube.com/?tab=m1",
+            "label": "YouTube"
+        },
+        {
+            "url": "https://news.google.com/nwshp?hl=uk&tab=mn",
+            "label": "Новини"
+        },
+        {
+            "url": "https://mail.google.com/mail/?tab=mm",
+            "label": "Gmail"
+        },
+        {
+            "url": "https://drive.google.com/?tab=mo&authuser=0",
+            "label": "Диск"
+        },
+        {
+            "url": "https://www.google.com/calendar?tab=mc",
+            "label": "Календар"
+        },
+        {
+            "url": "http://www.google.com/intl/uk/options/",
+            "label": "Більше"
+        }
+    ]
+}

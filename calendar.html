@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google Calendar</title>
+
+
+    <link rel="stylesheet/roole" type="text/css" href="style/style.roo">
+    <link rel="stylesheet/roole" type="text/css" href="blocks/commonGoogleMenu/style/commonGoogleMenu.roo">
+
+
+    <script src="script/roole.min.js"></script>
+
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="script/handlebars.js"></script>
+
+</head>
+<body>
+    <div id="commonGoogleNav"></div>
+
+    <script>
+        var template = $.get("blocks/commonGoogleMenu/commonGoogleMenu.hbs"),
+                data = $.get("blocks/commonGoogleMenu/commonGoogleMenu.json");
+
+        $.when(template, data)
+                .then (function (template, data) {
+            var result = Handlebars.compile(template[0])(data[0]);
+            $("#commonGoogleNav").append(result);
+        })
+    </script>
+</body>
+</html>

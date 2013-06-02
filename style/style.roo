@@ -1,11 +1,6 @@
 /* Common style: description of main elements style*/
-$lH = 29px;
-$gMenuH = 75px;
-$mailNavH = 59px;
-$border = 1px;
-$hH = $lH + $gMenuH + $mailNavH + 2 * $border;
 
-$asideW = 200px;
+@import "variables.roo";
 
 a {
                 text-decoration: none; color: #000000;
@@ -17,13 +12,6 @@ button          { border: 0; background: transparent; }
 
 /*Main navigation*/
 #navUser        { margin-left: 26px; }
-.mainNav {
-                line-height: $lH; background-color:#2D2D2D; overflow-x: hidden; height: $lH;
-                & a {
-                  margin: 9px; font-weight: bold; color: #BBBBBB;
-                  &:hover, &.active { color: #FFFFFF; }
-    }
-}
 
 /*Google menu: block with search field and google-plus menu*/
 #user           { vertical-align: super; }
