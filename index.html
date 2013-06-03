@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset=utf-8 />
-    <title>gmail</title>
+    <title>Gmail</title>
+    <meta charset="utf-8">
 
+
+    <link rel="stylesheet/roole" type="text/css" href="style/sceleton.roo">
     <link rel="stylesheet/roole" type="text/css" href="style/style.roo">
     <link rel="stylesheet/roole" type="text/css" href="blocks/commonGoogleMenu/style/commonGoogleMenu.roo">
 
@@ -12,32 +14,23 @@
 
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script src="script/handlebars.js"></script>
+    <script src="script/hbsHelper.js"></script>
+
 </head>
 
 <body>
+    <div class="grid_header"></div>
+    <div class="grid_left_aside"></div>
+    <div class="grid_main_content"></div>
 
-
-
-    <script>
-        var template = $.get("page.hbs"),
-                data = $.get("data.json");
-
-        $.when(template, data)
-                .then (function (template, data) {
-                    var result = Handlebars.compile(template[0])(data[0]);
-                    $("body").append(result);
+<script>
+        loadTemplete(".grid_header", "commonGoogleMenu")
+                .then(function(){
+                    loadTemplete(".grid_header", "search");
                 })
 
-                .then (function (){
-                    var template = $.get("blocks/commonGoogleMenu/commonGoogleMenu.hbs"),
-                            data = $.get("blocks/commonGoogleMenu/commonGoogleMenu.json");
-
-                    $.when(template, data)
-                        .then (function (template, data) {
-                            var result = Handlebars.compile(template[0])(data[0]);
-                            $("#commonGoogleNav").append(result);
-                        })
-                })
+        loadTemplete(".grid_left_aside", "mailFilters");
+        loadTemplete(".grid_main_content", "mailList");
     </script>
 </body>
 </html>
