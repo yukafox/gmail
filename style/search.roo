@@ -1,0 +1,21 @@
+@import "variables.roo";
+
+
+/*Google menu: block with search field and google-plus menu*/
+#user           { vertical-align: super; }
+#logo           { position: relative; left: 26px; top: 15px; }
+#field          { width: 515px; height: 25px; line-height: 27px; text-indent: 10px; font-size: 16px; color: #333;
+    background: #fff; border: $border solid #e4e4e4; border-top: solid 1px #e4e4e4; margin-right: 15px;
+@media (max-width: 1050px) { width: 400px; }
+    }
+#submit {
+    width: 70px; height: $lH; background: url("style/img/search.png") no-repeat #4d90fe center; color: transparent;
+    cursor: pointer; border: $border solid #3079ED; cursor: default;
+&:hover { background: url("style/img/search.png") no-repeat center #357AE8; border: $border solid #2F5BB7; }
+    }
+.search         { display: inline; margin-left: 80px; overflow: hidden; }
+.plusmenu {
+    display: inline; float: right; margin: 20px 20px 0 0;
+& button { cursor: pointer; }
+    }
+.googleMenu     { height: $gMenuH; background-color: #f4f4f4; border-bottom: $border solid rgba(0, 0, 0, 0.1); }

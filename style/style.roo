@@ -1,7 +1,6 @@
-/* Common style: description of main elements style*/
-
 @import "variables.roo";
 
+/* Common style: description of main elements style*/
 a {
                 text-decoration: none; color: #000000;
                 &:visited { color: #000000; }
@@ -10,26 +9,6 @@ a {
 body            { height: 100%; width: 100%; margin: 0 auto; overflow: hidden; font: 13px arial, sans-serif; }
 button          { border: 0; background: transparent; }
 
-
-
-/*Google menu: block with search field and google-plus menu*/
-#user           { vertical-align: super; }
-#logo           { position: relative; left: 26px; top: 15px; }
-#field          { width: 515px; height: 25px; line-height: 27px; text-indent: 10px; font-size: 16px; color: #333;
-                    background: #fff; border: $border solid #e4e4e4; border-top: solid 1px #e4e4e4; margin-right: 15px;
-                    @media (max-width: 1050px) { width: 400px; }
-}
-#submit {
-                width: 70px; height: $lH; background: url("style/img/search.png") no-repeat #4d90fe center; color: transparent;
-                    cursor: pointer; border: $border solid #3079ED; cursor: default;
-                &:hover { background: url("style/img/search.png") no-repeat center #357AE8; border: $border solid #2F5BB7; }
-}
-.search         { display: inline; margin-left: 80px; overflow: hidden; }
-.plusmenu {
-                display: inline; float: right; margin: 20px 20px 0 0;
-                & button { cursor: pointer; }
-}
-.googleMenu     { height: $gMenuH; background-color: #f4f4f4; border-bottom: $border solid rgba(0, 0, 0, 0.1); }
 
 /*Mail navigation: block of navigation buttons*/
 #gmailLogo      { margin-top: 15px; position: absolute; top: 110px; left: 20px; cursor: pointer; }
@@ -44,28 +23,10 @@ button          { border: 0; background: transparent; }
                 & a { cursor: default; }
 }
 
-/*Letter navigation: diferentiation of letters, button "write" and chat toolbar*/
-#chat           { position: absolute; text-align: center; width: 144px; border-top: $border solid rgba(0, 0, 0, 0.1);
-                    bottom: 5px; left: 0; margin-left: 16px; padding-top: 10px; }
-#writeButton    { margin: 15px; }
-.letterNav {
-                a        { display: block; padding: 5px 30px;}
-                a:hover  { background: #2D2D2D;}
-                a.active { font-weight: bold; color: #d74a38; }
-}
 
 section         { background-color: #f2f2f2; bottom: 0; left: $asideW; overflow: auto; position: absolute; right: 5px;
                     margin-right: 5px; top: $hH; }
 
-/*Letter section: table of received letters with noted time and sender*/
-.a-w            { float: right; width: 90px; }
-.flag           { width: 26px; display: inline-table; position: relative; top: 2px; left: 5px; }
-.star           { width: 30px; display: inline-table; position: relative; top: 4px; }
-.addOns         { display: inline-table; }
-.fromWho        { width: 220px; display: inline-table; }
-.whenDate       { width: 8ex; display: inline-table; text-align: right; }
-.letterInfo     { border-bottom: $border solid rgba(0, 0, 0, 0.1); line-height: 27px; padding-bottom: 3px; padding-top: 3px; height: 27px; overflow: hidden; }
-.letterTheme    { display: inline-table; overflow: hidden; }
 
 /*Footer style*/
 #lastDid        { float: left; text-align: right; width: 33.3%; }
