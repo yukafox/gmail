@@ -1,13 +1,9 @@
 @import "../../../style/variables";
 
-.mainNav:first-child { padding-left: 25px; }
+.mainNav:first-child  { padding-left: 25px; }
 .mainNav:nth-child(7) { color: #FFFFFF; }
 
-.mainNav {
-    line-height: $lH; background-color:#2D2D2D; overflow-x: hidden; height: $lH;
-
-    a {
-        margin: 9px; font-weight: bold; color: #BBBBBB;
-        &:hover { color: #FFFFFF; }
-    }
-}
+.mainNav              { line-height: $lH; background-color:#2D2D2D; overflow-x: hidden; height: $lH;
+                          a { margin: 9px; font-weight: bold; color: #BBBBBB; }
+                          &:hover { color: #FFFFFF; }
+                      }

@@ -1,0 +1,10 @@
+@import "variables.roo";
+
+/*Footer style*/
+#lastDid     { float: left; text-align: right; width: 33.3%; }
+#copyright   { float: left; text-align: center; width: 33.3%; }
+#usingMemory { float: left; text-align: left; width: 33.3%; }
+
+.grid_footer {  color: #666666; background-color: white; color: #666666; font-size: 85%;
+                 a { text-decoration: underline; color: #666666 !important; }
+             }

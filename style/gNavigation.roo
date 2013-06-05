@@ -1,0 +1,12 @@
+@import "variables.roo";
+
+/*Mail navigation: block of navigation buttons*/
+#gmailLogo    { margin-top: 15px; position: absolute; top: 110px; left: 20px; cursor: pointer; }
+#letterNumber { position: fixed; right: 190px; margin-top: 15px;}
+.mailNav      { height: $mailNavH; border-bottom: $border solid rgba(0, 0, 0, 0.1); line-height: $lH;}
+.letterGide   { display: inline; position: fixed; right: 10px; padding-top: 15px;
+                  & a { cursor: default; }
+              }
+.letterOption { display: inline; position: fixed; left: 190px; padding-top: 15px;
+                  & a { cursor: default; }
+              }

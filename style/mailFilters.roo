@@ -1,11 +1,12 @@
 @import "../../../style/variables";
 
 /*Letter navigation: diferentiation of letters, button "write" and chat toolbar*/
-#chat           { position: absolute; text-align: center; width: 144px; border-top: $border solid rgba(0, 0, 0, 0.1);
-    bottom: 5px; left: 0; margin-left: 16px; padding-top: 10px; }
-#writeButton    { margin: 15px; }
-.letterNav {
-a        { display: block; padding: 5px 30px;}
-a:hover  { background: #2D2D2D;}
-a.active { font-weight: bold; color: #d74a38; }
-    }
+#chat        { position: absolute; text-align: center; width: 144px; border-top: $border solid rgba(0, 0, 0, 0.1);
+                 bottom: 5px; left: 0; margin-left: 16px; padding-top: 10px; }
+#writeButton { margin: 15px; }
+
+.letterNav   {
+             a        { display: block; padding: 5px 30px; }
+             a:hover  { background: #f1f1f1; }
+             a.active { font-weight: bold; color: #d74a38; }
+             }

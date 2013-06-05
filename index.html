@@ -5,13 +5,14 @@
     <meta charset="utf-8">
 
 
-    <link rel="stylesheet/roole" type="text/css" href="style/sceleton.roo">
-    <link rel="stylesheet/roole" type="text/css" href="style/style.roo">
-    <link rel="stylesheet/roole" type="text/css" href="style/commonGoogleMenu.roo">
-    <link rel="stylesheet/roole" type="text/css" href="style/mailList.roo">
-    <link rel="stylesheet/roole" type="text/css" href="style/search.roo">
-    <link rel="stylesheet/roole" type="text/css" href="style/mailFilters.roo">
-
+    <link rel="stylesheet/roole" type="text/css" href="style/sceleton.roo"/>
+    <link rel="stylesheet/roole" type="text/css" href="style/style.roo"/>
+    <link rel="stylesheet/roole" type="text/css" href="style/commonGoogleMenu.roo"/>
+    <link rel="stylesheet/roole" type="text/css" href="style/search.roo"/>
+    <link rel="stylesheet/roole" type="text/css" href="style/gNavigation.roo"/>
+    <link rel="stylesheet/roole" type="text/css" href="style/mailFilters.roo"/>
+    <link rel="stylesheet/roole" type="text/css" href="style/mailList.roo"/>
+    <link rel="stylesheet/roole" type="text/css" href="style/footer.roo"/>
 
     <script src="script/roole.min.js"></script>
 
@@ -24,16 +25,23 @@
 <body>
     <div class="grid_header"></div>
     <div class="grid_left_aside"></div>
-    <div class="grid_main_content"></div>
+    <div class="grid_main_content">
+        <div class="grid_footer"></div>
+    </div>
 
 <script>
         loadTemplete(".grid_header", "commonGoogleMenu")
                 .then(function(){
-                    loadTemplete(".grid_header", "search");
+                    loadTemplete(".grid_header", "search")
+                            .then(function(){
+                                loadTemplete(".grid_header", "gNavigation");
+                    })
                 })
-
         loadTemplete(".grid_left_aside", "mailFilters");
-        loadTemplete(".grid_main_content", "mailList");
+        loadTemplete(".grid_main_content", "mailList")
+                .then(function(){
+                    loadTemplete(".grid_footer", "footer");
+                })
     </script>
 </body>
 </html>
