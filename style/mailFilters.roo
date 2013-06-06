@@ -7,8 +7,8 @@
 
 .letterNav   {
 
-                a   { display: block; padding: 0 25px;
+                a   { display: block; padding: 5px 25px; width: 130px;
                         &:hover  { background: #dedede; }
                     }
-                &:first-child { font-weight: bold; color: #d74a38; border-left: 2px solid #DD4B39; }
+                :first-child { font-weight: bold; color: #d74a38; border-left: 4px solid #DD4B39; }
              }
