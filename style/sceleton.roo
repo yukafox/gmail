@@ -3,4 +3,4 @@
 .grid_header       { height: $hH; }
 .grid_left_aside   { position: absolute; left: 0; top: $hH; bottom: 0; width: $asideW; }
 .grid_main_content { position: absolute; left: $asideW; top: $hH; right: 0; bottom: 0; overflow:auto; }
-.grid_footer       { position: relative; margin-top: -5px; padding-bottom: 180px; padding-top: 20px; }
+.grid_footer       { margin-top: -5px; padding-bottom: 180px; padding-top: 20px; }

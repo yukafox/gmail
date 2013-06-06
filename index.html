@@ -26,8 +26,10 @@
     <div class="grid_header"></div>
     <div class="grid_left_aside"></div>
     <div class="grid_main_content">
+        <div class="grid_letter_description"></div>
         <div class="grid_footer"></div>
     </div>
+
 
 <script>
         loadTemplete(".grid_header", "commonGoogleMenu")
@@ -38,10 +40,8 @@
                     })
                 })
         loadTemplete(".grid_left_aside", "mailFilters");
-        loadTemplete(".grid_main_content", "mailList")
-                .then(function(){
-                    loadTemplete(".grid_footer", "footer");
-                })
+        loadTemplete(".grid_letter_description", "mailList");
+        loadTemplete (".grid_footer", "footer");
     </script>
 </body>
 </html>
