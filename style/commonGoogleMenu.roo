@@ -4,5 +4,5 @@
              a { margin: 9px; font-weight: bold; color: #BBBBBB; }
              :hover { color: #FFFFFF; }
              :first-child  { padding-left: 25px; }
-             :nth-child { color: #FFFFFF; }
+             .active { color: #FFFFFF; }
           }

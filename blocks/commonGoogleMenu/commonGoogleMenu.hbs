@@ -1,5 +1,5 @@
 <nav class="mainNav">
     {{#mainMenu}}
-        <a href="{{url}}"> {{label}} </a>
+        <a {{#if active}} class="active" {{/if}} href="{{url}}"> {{label}} </a>
     {{/mainMenu}}
 </nav>

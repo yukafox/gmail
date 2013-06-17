@@ -33,12 +33,12 @@
 
 <script>
         loadTemplete(".grid_header", "commonGoogleMenu")
-                .then(function(){
+                .then(function () {
                     loadTemplete(".grid_header", "search")
-                            .then(function(){
+                            .then(function () {
                                 loadTemplete(".grid_header", "gNavigation");
-                    })
-                })
+                            })
+                });
         loadTemplete(".grid_left_aside", "mailFilters");
         loadTemplete(".grid_letter_description", "mailList");
         loadTemplete (".grid_footer", "footer");

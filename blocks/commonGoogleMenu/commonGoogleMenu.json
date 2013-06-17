@@ -26,7 +26,8 @@
         },
         {
             "url": "https://mail.google.com/mail/?tab=mm",
-            "label": "Gmail"
+            "label": "Gmail",
+            "active": true
         },
         {
             "url": "https://drive.google.com/?tab=mo&authuser=0",
