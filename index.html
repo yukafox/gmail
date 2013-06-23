@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Gmail</title>
+    <title>Вхідні - name@gmail.com - Gmail</title>
     <meta charset="utf-8">
-
 
     <link rel="stylesheet/roole" type="text/css" href="style/sceleton.roo"/>
     <link rel="stylesheet/roole" type="text/css" href="style/style.roo"/>
@@ -15,11 +14,10 @@
     <link rel="stylesheet/roole" type="text/css" href="style/footer.roo"/>
 
     <script src="script/roole.min.js"></script>
-
-    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/jquery-2.0.0.min.js"></script>
     <script src="script/handlebars.js"></script>
     <script src="script/hbsHelper.js"></script>
-
 </head>
 
 <body>
@@ -30,8 +28,7 @@
         <div class="grid_footer"></div>
     </div>
 
-
-<script>
+    <script>
         loadTemplete(".grid_header", "commonGoogleMenu")
                 .then(function () {
                     loadTemplete(".grid_header", "search")
