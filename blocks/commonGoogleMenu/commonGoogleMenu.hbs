@@ -2,4 +2,10 @@
     {{#mainMenu}}
         <a {{#if active}} class="active" {{/if}} href="{{url}}"> {{label}} </a>
     {{/mainMenu}}
+    <div class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#"> {{trigger}} </a>
+        <ul class="dropdown-menu" role="menu">
+            <>...
+        </ul>
+    </div>
 </nav>

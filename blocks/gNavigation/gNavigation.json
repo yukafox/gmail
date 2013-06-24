@@ -1,9 +1,7 @@
 {
-    "letterNumber": [
-        {
-            "from": "1",
-            "to": "39",
-            "quantity": "39"
-        }
-    ]
+    "from": "1",
+
+    "to": "39",
+
+    "quantity": "39"
 }
