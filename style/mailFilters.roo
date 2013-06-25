@@ -2,7 +2,7 @@
 
 /*Letter navigation: diferentiation of letters, button "write" and chat toolbar*/
 #chat        { position: absolute; text-align: center; width: 144px; border-top: $border solid rgba(0, 0, 0, 0.1);
-                 bottom: 5px; left: 0; margin-left: 16px; padding-top: 10px; }
+                 bottom: 5px; left: 0; margin-left: 16px; padding-top: 10px; background: url("style/img/img.png") no-repeat center; }
 #writeButton { margin: 15px; }
 
 .letterNav   {

@@ -1,12 +1,20 @@
 @import "variables.roo";
 
 /*Mail navigation: block of navigation buttons*/
-#gmailLogo    { margin-top: 15px; position: absolute; top: 110px; left: 20px; cursor: pointer; color: red; font-size: 20px; }
-#letterNumber { position: fixed; right: 190px; margin-top: 15px;}
-.mailNav      { height: $mailNavH; border-bottom: $border solid rgba(0, 0, 0, 0.1); line-height: $lH;}
-.letterGide   { display: inline; position: fixed; right: 10px; padding-top: 15px;
-                  & a { cursor: default; }
-              }
-.letterOption { display: inline; position: fixed; left: 190px; padding-top: 15px;
-                  & a { cursor: default; }
-              }
+#gmailLogo      { margin-top: 10px; position: absolute; top: 110px; left: 20px; cursor: pointer; color: #dc4b39; font-size: 20px; }
+#oldButton      { background-position: 0 -169px !important; padding-right: 3px; }
+#moreButton     { line-height: 10px; }
+#letterNumber   { position: fixed; right: 190px; margin-top: 18px;}
+#refreshButton  { background: url("style/img/img.png") no-repeat 0 -193px; height: 17px; width: 30px; display: inline-block;
+                  opacity: 0.5; }
+#settingsButton { background: url("style/img/img.png") no-repeat 0 -471px; height: 20px; width: 21px; display: inline-block;
+                  opacity: 0.5; }
+
+.mailNav        { height: $mailNavH; border-bottom: $border solid rgba(0, 0, 0, 0.1); line-height: $lH;}
+.letterGide     { display: inline; position: fixed; right: 10px; padding-top: 15px; }
+.MailSwitch     { background: url("style/img/img.png") no-repeat 0 -103px; height: 20px; width: 21px; display: inline-block;
+                  opacity: 0.333; }
+.letterOption   { display: inline; position: fixed; left: 200px; padding-top: 10px;
+                  .theButton { top: 6px; position: relative; }
+                }
+.downArrowRed   { background: url("style/img/arrow_down_red.png") no-repeat; display: inline-block; height: 8px; width: 7px; }

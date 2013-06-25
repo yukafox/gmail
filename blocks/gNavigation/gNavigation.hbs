@@ -1,14 +1,28 @@
 <nav class="mailNav">
-    <a id="gmailLogo" href="#">Gmail
-    <span ></span></a>
-    <div class="letterOption">
-        <button type="button" title="Вибрати"><img src="style/img/choose.png"/></button>
-        <button type="button" title="Оновити"><img src="style/img/restore.png"/></button>
-        <a href="#"><img src="style/img/more.png"/></a>
+    <div id="gmailLogo">
+        <span>Gmail</span>
+        <span class="downArrowRed" content=" "></span>
     </div>
-    <a id="letterNumber" href="#"><b>1-...</b> із <b>... </b></a>
+    <div class="letterOption">
+        <button class="theButton" title="Вибрати">
+            <span class="downArrow" content=" "></span>
+        </button>
+        <button class="theButton" title="Оновити">
+            <span id="refreshButton" content=" "></span>
+        </button>
+        <button class="theButton">
+            <span class="downArrow" content=" "></span>
+        </button>
+    </div>
+    <a id="letterNumber" href="#"><b>{{from}}-{{to}}</b> із <b>{{quantity}}</b></a>
     <div class="letterGide">
-        <a href="#" title="Старіші"><img src="style/img/older.png"></a><a href="#" title="Новіші"><img src="style/img/resent.png"></a>
-        <button type="button" title="Налаштування"><img src="style/img/propertise.png"/></button>
+        <button class="theButton">
+            <span id="oldButton" class="MailSwitch" title="Старіші" content=" "></span>
+            <span class="MailSwitch" title="Новіші" content=" "></span>
+        </button>
+        <button class="theButton" title="Налаштування">
+            <span id="settingsButton" content=" "></span>
+            <span class="downArrow" content=" "></span>
+        </button>
     </div>
 </nav>
